@@ -42,3 +42,10 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
+func sayHelloToDog(name: String) {
+    print("Hello \(name), why do you shit so much?")
+}
+
+
+sayHelloToDog(name: "Maya")
